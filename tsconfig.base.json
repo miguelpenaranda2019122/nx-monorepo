@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@to-do-components": ["packages/to-do-components/src/index.ts"],
+      "@to-do-redux": ["packages/to-do-redux/src/index.ts"],
+      "@to-do-translations": ["packages/to-do-translations/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

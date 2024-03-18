@@ -9,6 +9,21 @@
     "react": "*",
     "react-native": "*",
     "react-native-svg": "*",
-    "metro-config": "*"
+    "metro-config": "*",
+    "react-native-svg-transformer": "*",
+    "@nx/webpack": "*",
+    "@nx/react": "*",
+    "@react-navigation/native": "*",
+    "@react-navigation/native-stack": "*",
+    "react-native-safe-area-context": "*",
+    "react-native-screens": "*",
+    "react-redux": "*",
+    "react-i18next": "*",
+    "@os-team/i18next-react-native-language-detector": "*",
+    "@reduxjs/toolkit": "*",
+    "i18next": "*"
+  },
+  "devDependencies": {
+    "react-native-clean-project": "*"
   }
 }
