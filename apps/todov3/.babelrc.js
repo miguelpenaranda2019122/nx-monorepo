@@ -21,6 +21,7 @@ module.exports = function (api) {
     presets: [
       ['module:@react-native/babel-preset', { useTransformReactJSX: true }],
     ],
+    // after copy - Add the necessary plugin's
     plugins: [
       '@babel/plugin-transform-export-namespace-from',
       'react-native-reanimated/plugin',
