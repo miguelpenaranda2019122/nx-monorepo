@@ -5,12 +5,16 @@
   "scripts": {
     "todov1:start": "nx run todov1:start",
     "todov2:start": "nx run todov2:start",
+    "todov3:start": "nx run todov3:start",
     "todov1:run:ios": "nx run todov1:run-ios",
     "todov2:run:ios": "nx run todov2:run-ios",
+    "todov3:run:ios": "nx run todov3:run-ios",
     "todov1:pod": "nx run todov1:pod-install",
     "todov2:pod": "nx run todov2:pod-install",
+    "todov3:pod": "nx run todov3:pod-install",
     "todov1:clean:pods": "cd apps/todov1 && react-native clean-project-auto",
     "todov2:clean:pods": "cd apps/todov2 && react-native clean-project-auto",
+    "todov3:clean:pods": "cd apps/todov3 && react-native clean-project-auto",
     "clean": "rm -rf node_modules **/node_modules **/**/node_modules **/**/**/node_modules && rm -rf $TMPDIR/react-* && watchman watch-del-all && yarn cache clean"
   },
   "private": true,
