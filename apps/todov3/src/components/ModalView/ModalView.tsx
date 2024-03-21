@@ -56,6 +56,7 @@ const TagsArray: TagsProperties[] = [
         isActive: false
     }
 ]
+
 const DifficultyArray: DifficultyProperties[] = [
     {
         id: 1,
@@ -123,13 +124,22 @@ const ModalView: React.FunctionComponent = ()=> {
     }
 
     const clearForm = () => {
+        
+        tagsArray.map(item =>{
+            if (item.isActive === true) item.isActive = false;
+        })
+        
+        difficultyArray.map(item =>{
+            if (item.isActive === true) item.isActive = false;
+        })
+
         dispatch(setModalVisible(!modalVisible));
         dispatch(setText(""));
         dispatch(setTextArea(""));
         setDifficultySelected(undefined);
         setTagSelected(undefined);
-        setTagsArray(TagsArray);
-        setDifficultyArray(DifficultyArray);
+        // setTagsArray(TagsArray);
+        // setDifficultyArray(DifficultyArray);
     }
 
     const validatedForm = () => {
