@@ -1,0 +1,35 @@
+{
+  "name": "todov2",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@react-native/metro-config": "*",
+    "@testing-library/jest-native": "*",
+    "@testing-library/react-native": "*",
+    "react": "*",
+    "react-native": "*",
+    "react-native-svg": "*",
+    "react-native-reanimated": "*",
+    "react-native-circular-progress-indicator": "*",
+    "metro-config": "*",
+    "react-native-svg-transformer": "*",
+    "@nx/webpack": "*",
+    "@nx/react": "*",
+    "@react-navigation/native": "*",
+    "@react-navigation/native-stack": "*",
+    "react-native-safe-area-context": "*",
+    "react-native-screens": "*",
+    "react-redux": "*",
+    "react-i18next": "*",
+    "@os-team/i18next-react-native-language-detector": "*",
+    "@reduxjs/toolkit": "*",
+    "i18next": "*",
+    "react-native-linear-gradient": "*",
+    "rn-faded-scrollview": "*",
+    "react-native-modal": "*"
+  },
+  "devDependencies": {
+    "react-native-clean-project": "*",
+    "@babel/plugin-transform-export-namespace-from": "*"
+  }
+}

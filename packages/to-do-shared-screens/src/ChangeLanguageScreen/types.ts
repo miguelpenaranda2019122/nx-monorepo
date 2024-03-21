@@ -1,5 +1,8 @@
 import { NavigationProp } from '@react-navigation/native';
-import { RootStackParamList } from "../../App.types";
+
+type RootStackParamList = {
+    Home: undefined;
+  };
 
 export default interface HomeScreenProps {
     navigation: NavigationProp<RootStackParamList>;

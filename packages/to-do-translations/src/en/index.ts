@@ -17,6 +17,18 @@ export default {
         listEmptyText: "There are not tasks",
         english: "English",
         portuguese: "Portuguese",
-        spanish: "Spanish"
+        spanish: "Spanish",
+        allTasks: "All Tasks",
+        completed: "Completed",
+        percent1: "You've completed",
+        percent2: "of all your tasks.",
+        newTask: "New Task",
+        taskTitle: "Task Title",
+        taskDetails: "Task Details",
+        addTags: "Add Tags",
+        addPriorityLevel: "Add Priority Level",
+        save: "Save",
+        taskDescription: "Task Description",
+        priorityLevel: "Priority Level"
     }
 };

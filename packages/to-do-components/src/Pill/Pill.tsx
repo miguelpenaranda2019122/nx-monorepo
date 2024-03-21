@@ -8,7 +8,7 @@ const Pill: React.FunctionComponent<PillProps> = (props) => {
 
   if (pressable) {
     return (
-      <TouchableOpacity style={[styles.pill, pillStyles]} onPress={onPress}>
+      <TouchableOpacity style={[styles.pill, {backgroundColor: bgColor},pillStyles]} onPress={onPress}>
           <Text style={styles.pillText}>{label}</Text>
       </TouchableOpacity>
     )
@@ -17,7 +17,7 @@ const Pill: React.FunctionComponent<PillProps> = (props) => {
   if (point) {
     return (
       <View style={[styles.pill, pillStyles, {flexDirection: "row", justifyContent: "center", gap: 8}]}>
-          <View style={[{backgroundColor: bgColor}, styles.pillPoint]}></View>
+          <View style={[{backgroundColor: bgColor, borderWidth: 1}, styles.pillPoint]}></View>
           <Text style={styles.pillText}>{label}</Text>
       </View>
     )

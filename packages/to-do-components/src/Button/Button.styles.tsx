@@ -5,7 +5,10 @@ const styles = StyleSheet.create({
         backgroundColor: "#D98326",
         padding: 9,
         borderRadius: 10,
-        justifyContent: "center"
+        justifyContent: "center",
+        flexDirection: "row",
+        gap: 7,
+        alignItems: "center"
     },
     text: {
         color: 'white',

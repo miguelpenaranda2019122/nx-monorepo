@@ -9,12 +9,12 @@ import i18n from '@to-do-translations';
 import { useTranslation } from 'react-i18next';
 import HomeScreen from './screens/HomeScreen';
 import DetailsScreen from './screens/DetailsScreen/DetailsScreen';
-import ChangeLanguageScreen from './screens/ChangeLanguagueScreen/ChangeLanguageScreen';
+import { ChangeLanguageScreen } from '@to-do-shared-screens';
 i18n 
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
-export const App: React.FunctionComponent = () => {
+const App: React.FunctionComponent = () => {
 
   const {t} = useTranslation();
 
@@ -23,7 +23,7 @@ export const App: React.FunctionComponent = () => {
       <NavigationContainer>
         <Stack.Navigator initialRouteName='Home'>
           <Stack.Screen name="Home" component={HomeScreen} options={{title: "TO DO V1" }} />
-          <Stack.Screen name="Details" component={DetailsScreen} options={{title: "Details"}} />
+          <Stack.Screen name="Details" component={DetailsScreen} options={{title: t("detailsScreen")}} />
           <Stack.Screen name="ChangeLanguage" component={ChangeLanguageScreen} options={{title: t("configurationLanguageScreen")}} />
         </Stack.Navigator>
       </NavigationContainer>

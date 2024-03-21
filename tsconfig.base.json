@@ -17,6 +17,7 @@
     "paths": {
       "@to-do-components": ["packages/to-do-components/src/index.ts"],
       "@to-do-redux": ["packages/to-do-redux/src/index.ts"],
+      "@to-do-shared-screens": ["packages/to-do-shared-screens/src/index.ts"],
       "@to-do-translations": ["packages/to-do-translations/src/index.ts"]
     }
   },

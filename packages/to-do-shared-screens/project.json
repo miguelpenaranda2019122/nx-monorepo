@@ -1,0 +1,9 @@
+{
+  "name": "to-do-shared-screens",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/to-do-shared-screens/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project to-do-shared-screens --web",
+  "targets": {}
+}

@@ -17,6 +17,18 @@ export default {
         listEmptyText: "Não existem tarefas",
         english: "Inglês",
         portuguese: "Português",
-        spanish: "Espanhol"
+        spanish: "Espanhol",
+        allTasks: "Todas as Tarefas",
+        completed: "Concluído",
+        percent1: "Tens concluído",
+        percent2: "de todas as tuas tarefas.",
+        newTask: "Nova Tarefa",
+        taskTitle: "Titulo da Tarefa",
+        taskDetails: "Detalhes da Tarefa",
+        addTags: "Adicionar Tags",
+        addPriorityLevel: "Adicionar Nivel de Prioridade",
+        save: "Criar",
+        taskDescription: "Descrição da Tarefa",
+        priorityLevel: "Nivel de Prioridade"
     }
 };

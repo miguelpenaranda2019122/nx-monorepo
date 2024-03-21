@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     borderRadius: 30,
     borderColor: "transparent",
-    borderWidth: 2,
+    borderWidth: 1,
     alignSelf: "center"
   },
   pillText: {
