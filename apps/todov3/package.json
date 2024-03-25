@@ -30,6 +30,9 @@
   },
   "devDependencies": {
     "react-native-clean-project": "*",
-    "@babel/plugin-transform-export-namespace-from": "*"
+    "@babel/plugin-transform-export-namespace-from": "*",
+    "@types/jest": "*",
+    "@types/node": "*",
+    "react-native-config": "*"
   }
 }

@@ -24,6 +24,7 @@
     "i18next": "*"
   },
   "devDependencies": {
-    "react-native-clean-project": "*"
+    "react-native-clean-project": "*",
+    "react-native-config": "*"
   }
 }

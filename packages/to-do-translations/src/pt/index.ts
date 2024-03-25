@@ -21,7 +21,7 @@ export default {
         allTasks: "Todas as Tarefas",
         completed: "Concluído",
         percent1: "Tens concluído",
-        percent2: "de todas as tuas tarefas.",
+        percent2: "todas as tuas tarefas.",
         newTask: "Nova Tarefa",
         taskTitle: "Titulo da Tarefa",
         taskDetails: "Detalhes da Tarefa",

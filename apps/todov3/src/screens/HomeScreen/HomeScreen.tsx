@@ -9,12 +9,15 @@ import TasksContainer from '../../components/TasksContainer';
 import ModalView from "../../components/ModalView";
 import { useAppSelector, useAppDispatch, selectWorkList, selectTasksCompleted, selectModalVisible, setWorkList, setTasksCompleted, setModalVisible, WorkType} from "@to-do-redux";
 import { Button } from "@to-do-components";
+import { Config } from 'react-native-config';
 
-
+const { NUMBER, NAME } = Config;
+console.log(process.env)
 
 const HomeScreen: React.FunctionComponent = ({navigation}: HomeScreenProps) =>{
 
   const { t } = useTranslation();
+
 
   const taskList = useAppSelector(selectWorkList);
   const taskListCompleted = useAppSelector(selectTasksCompleted);
@@ -61,6 +64,8 @@ const HomeScreen: React.FunctionComponent = ({navigation}: HomeScreenProps) =>{
     <>
       <ScrollView showsVerticalScrollIndicator={false} allowEndFade={false}>
         <View style={styles.container}>
+          <Text>{NAME}</Text>
+          <Text>{NUMBER}</Text>
                 <Text style={styles.task_title}>{t("allTasks")}</Text>
                 <PercentageCompleted />
                 {

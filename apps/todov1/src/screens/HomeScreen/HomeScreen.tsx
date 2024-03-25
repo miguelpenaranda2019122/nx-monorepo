@@ -1,11 +1,14 @@
 import { useLayoutEffect } from "react";
-import { Image, TouchableOpacity, SafeAreaView, Alert } from 'react-native';
+import { Image, TouchableOpacity, SafeAreaView, Alert, Text } from 'react-native';
 import HomeScreenProps from "./types";
 import { Input } from '@to-do-components';
 import TasksSection from "../../components/TasksSection";
 import ModalView from "../../components/ModalView";
 import { useAppSelector, useAppDispatch, selectText, setText, selectModalVisible, setModalVisible} from '@to-do-redux';
 import { useTranslation } from 'react-i18next';
+import Config from "react-native-config";
+
+const { NUMBER, NAME } = Config;
 
 
 const HomeScreen: React.FunctionComponent = ({navigation}: HomeScreenProps) =>{
@@ -43,6 +46,8 @@ const HomeScreen: React.FunctionComponent = ({navigation}: HomeScreenProps) =>{
 
   return (
       <SafeAreaView style={{flex: 1, gap: 30}}>
+          <Text>{NAME}</Text>
+          <Text>{NUMBER}</Text>
             <Input defaultValue={text} 
                   onChangeText={(text: string) => dispatch(setText(text))}
                   placeholder={t("inputText")}

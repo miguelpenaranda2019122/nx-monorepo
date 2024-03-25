@@ -102,8 +102,13 @@ const ModalView: React.FunctionComponent = ()=> {
         
         tagsArrayCopy.forEach(tag => {
             if (tag.id === id) {
-                setTagSelected(tag.name);
-                tag.isActive = true;
+                if (!tag.isActive) {
+                    setTagSelected(tag.name);
+                    tag.isActive = true;
+                } else {
+                    setTagSelected(undefined);
+                    tag.isActive = false;
+                }
             } else tag.isActive = false;
         });
 
@@ -115,8 +120,13 @@ const ModalView: React.FunctionComponent = ()=> {
 
         difficultyArrayCopy.forEach(item => {
             if (item.id === id) {
-                setDifficultySelected(item.name);
-                item.isActive = true;
+                if (!item.isActive) {
+                    setDifficultySelected(item.name);
+                    item.isActive = true;
+                } else {
+                    setDifficultySelected(undefined);
+                    item.isActive = false;
+                }
             } else item.isActive = false;
         });
 
