@@ -11,6 +11,7 @@ import DetailsScreen from './screens/DetailsScreen/DetailsScreen';
 import { ChangeLanguageScreen } from '@to-do-shared-screens';
 import { Colors } from './styles';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-expressions
 i18n 
 
 const Stack = createNativeStackNavigator<RootStackParamList>();

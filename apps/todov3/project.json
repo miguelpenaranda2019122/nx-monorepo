@@ -22,6 +22,14 @@
         "bundleOutput": "dist/apps/mobile/android/main.jsbundle",
         "sourcemapOutput": "../../dist/apps/mobile/android/main.map"
       }
+    },
+    "run-ios": {
+      "executor": "@nx/react-native:run-ios",
+      "options": {
+        "mode": "Release",
+        "interactive": true,
+        "resetCache": true
+      }
     }
   }
 }

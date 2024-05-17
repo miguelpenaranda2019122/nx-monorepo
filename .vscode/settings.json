@@ -1,0 +1,14 @@
+{
+  "i18n-ally.localesPaths": [
+    "apps/todov3/ios/Pods/Flipper-Boost-iOSX/boost/locale",
+    "apps/todov3/ios/Pods/Flipper-Folly/folly/lang",
+    "apps/todov3/ios/Pods/RCT-Folly/folly/lang",
+    "apps/todov3/ios/Pods/boost/boost/locale",
+    "apps/todov3/ios/Pods/Flipper-Boost-iOSX/boost/predef/language",
+    "apps/todov3/ios/Pods/boost/boost/predef/language",
+    "apps/todov3/ios/Pods/Headers/Private/Flipper-Folly/folly/lang",
+    "apps/todov3/ios/Pods/Headers/Private/RCT-Folly/folly/lang",
+    "apps/todov3/ios/Pods/Headers/Public/Flipper-Folly/folly/lang",
+    "apps/todov3/ios/Pods/Headers/Public/RCT-Folly/folly/lang"
+  ]
+}
