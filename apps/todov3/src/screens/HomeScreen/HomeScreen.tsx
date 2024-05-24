@@ -11,8 +11,7 @@ import { useAppSelector, useAppDispatch, selectWorkList, selectTasksCompleted, s
 import { Button } from "@to-do-components";
 import { Config } from 'react-native-config';
 
-const { NUMBER, NAME } = Config;
-console.log(process.env)
+const { ENV } = Config;
 
 const HomeScreen: React.FunctionComponent = ({navigation}: HomeScreenProps) =>{
 
@@ -64,8 +63,7 @@ const HomeScreen: React.FunctionComponent = ({navigation}: HomeScreenProps) =>{
     <>
       <ScrollView showsVerticalScrollIndicator={false} allowEndFade={false}>
         <View style={styles.container}>
-          <Text>{NAME}</Text>
-          <Text>{NUMBER}</Text>
+          <Text>Environment: {ENV}</Text>
                 <Text style={styles.task_title}>{t("allTasks")}</Text>
                 <PercentageCompleted />
                 {
