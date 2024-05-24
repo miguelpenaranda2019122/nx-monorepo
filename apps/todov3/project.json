@@ -33,6 +33,14 @@
         "command": "ENVFILE=.env.production nx run todov3:run-android"
       }
     },
+    "build-ios": {
+      "executor": "@nx/react-native:build-ios",
+      "options": {
+        "resetCache": true,
+        "interactive": true,
+        "extraParams": ["archive"]
+      }
+    },
     "build-android": {
       "executor": "@nx/react-native:build-android",
       "outputs": [
