@@ -14,6 +14,18 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-Todov3-Todov3Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Todov3-Todov3Tests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		903ED0A6863482A320607207 /* libPods-Todov3-Todov3Staging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AE141C1D6A0A33799D6D75 /* libPods-Todov3-Todov3Staging.a */; };
+		9E6BD7A22C00D33500F05818 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		9E6BD7A32C00D33500F05818 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		9E6BD7A72C00D33500F05818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9E6BD7A82C00D33500F05818 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		9E6BD7B42C00D33800F05818 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		9E6BD7B52C00D33800F05818 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		9E6BD7B92C00D33800F05818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9E6BD7BA2C00D33800F05818 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		9E6BD7C42C00D3F400F05818 /* Todov3Production-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E6BD7C22C00D33800F05818 /* Todov3Production-Info.plist */; };
+		9E6BD7C52C00D3F700F05818 /* Todov3Staging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E6BD7B02C00D33500F05818 /* Todov3Staging-Info.plist */; };
+		C63825F7A1D93A7F59F3575D /* libPods-Todov3-Todov3Production.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E391C8511BE5A5063CFF0D6 /* libPods-Todov3-Todov3Production.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,19 +42,28 @@
 		00E356EE1AD99517003FC87E /* Todov3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Todov3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* Todov3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Todov3Tests.m; sourceTree = "<group>"; };
+		0E391C8511BE5A5063CFF0D6 /* libPods-Todov3-Todov3Production.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Todov3-Todov3Production.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* Todov3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todov3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Todov3/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Todov3/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Todov3/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Todov3/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Todov3/main.m; sourceTree = "<group>"; };
+		18AE141C1D6A0A33799D6D75 /* libPods-Todov3-Todov3Staging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Todov3-Todov3Staging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Todov3-Todov3Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Todov3-Todov3Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AF2ED2999A0FF6A71F52604 /* Pods-Todov3-Todov3Staging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todov3-Todov3Staging.release.xcconfig"; path = "Target Support Files/Pods-Todov3-Todov3Staging/Pods-Todov3-Todov3Staging.release.xcconfig"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-Todov3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todov3.debug.xcconfig"; path = "Target Support Files/Pods-Todov3/Pods-Todov3.debug.xcconfig"; sourceTree = "<group>"; };
+		3C9FB26EB88B9AE024022A58 /* Pods-Todov3-Todov3Staging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todov3-Todov3Staging.debug.xcconfig"; path = "Target Support Files/Pods-Todov3-Todov3Staging/Pods-Todov3-Todov3Staging.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-Todov3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todov3.release.xcconfig"; path = "Target Support Files/Pods-Todov3/Pods-Todov3.release.xcconfig"; sourceTree = "<group>"; };
+		5AA246FAE71913F444E46300 /* Pods-Todov3-Todov3Production.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todov3-Todov3Production.release.xcconfig"; path = "Target Support Files/Pods-Todov3-Todov3Production/Pods-Todov3-Todov3Production.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-Todov3-Todov3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todov3-Todov3Tests.debug.xcconfig"; path = "Target Support Files/Pods-Todov3-Todov3Tests/Pods-Todov3-Todov3Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-Todov3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Todov3.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Todov3/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Todov3-Todov3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todov3-Todov3Tests.release.xcconfig"; path = "Target Support Files/Pods-Todov3-Todov3Tests/Pods-Todov3-Todov3Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9E6BD7AF2C00D33500F05818 /* Todov3Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todov3Staging.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E6BD7B02C00D33500F05818 /* Todov3Staging-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Todov3Staging-Info.plist"; path = "/Users/miguelcorreia/Documents/Nearsoft/nx-monorepo/apps/todov3/ios/Todov3Staging-Info.plist"; sourceTree = "<absolute>"; };
+		9E6BD7C12C00D33800F05818 /* Todov3Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todov3Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E6BD7C22C00D33800F05818 /* Todov3Production-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Todov3Production-Info.plist"; path = "/Users/miguelcorreia/Documents/Nearsoft/nx-monorepo/apps/todov3/ios/Todov3Production-Info.plist"; sourceTree = "<absolute>"; };
+		AE368FD2E5FDA459BFB7F0B9 /* Pods-Todov3-Todov3Production.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todov3-Todov3Production.debug.xcconfig"; path = "Target Support Files/Pods-Todov3-Todov3Production/Pods-Todov3-Todov3Production.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -60,6 +81,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C80B921A6F3F58F76C31292 /* libPods-Todov3.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6BD7A42C00D33500F05818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903ED0A6863482A320607207 /* libPods-Todov3-Todov3Staging.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6BD7B62C00D33800F05818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63825F7A1D93A7F59F3575D /* libPods-Todov3-Todov3Production.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +137,9 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-Todov3.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-Todov3-Todov3Tests.a */,
+				0E391C8511BE5A5063CFF0D6 /* libPods-Todov3-Todov3Production.a */,
+				18AE141C1D6A0A33799D6D75 /* libPods-Todov3-Todov3Staging.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,6 +160,8 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				9E6BD7B02C00D33500F05818 /* Todov3Staging-Info.plist */,
+				9E6BD7C22C00D33800F05818 /* Todov3Production-Info.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -133,6 +173,8 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* Todov3.app */,
 				00E356EE1AD99517003FC87E /* Todov3Tests.xctest */,
+				9E6BD7AF2C00D33500F05818 /* Todov3Staging.app */,
+				9E6BD7C12C00D33800F05818 /* Todov3Production.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +186,10 @@
 				5709B34CF0A7D63546082F79 /* Pods-Todov3.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-Todov3-Todov3Tests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-Todov3-Todov3Tests.release.xcconfig */,
+				AE368FD2E5FDA459BFB7F0B9 /* Pods-Todov3-Todov3Production.debug.xcconfig */,
+				5AA246FAE71913F444E46300 /* Pods-Todov3-Todov3Production.release.xcconfig */,
+				3C9FB26EB88B9AE024022A58 /* Pods-Todov3-Todov3Staging.debug.xcconfig */,
+				2AF2ED2999A0FF6A71F52604 /* Pods-Todov3-Todov3Staging.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -193,6 +239,48 @@
 			productReference = 13B07F961A680F5B00A75B9A /* Todov3.app */;
 			productType = "com.apple.product-type.application";
 		};
+		9E6BD79F2C00D33500F05818 /* Todov3Staging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E6BD7AC2C00D33500F05818 /* Build configuration list for PBXNativeTarget "Todov3Staging" */;
+			buildPhases = (
+				9E6BD7A02C00D33500F05818 /* [CP] Check Pods Manifest.lock */,
+				9E6BD7A12C00D33500F05818 /* Sources */,
+				9E6BD7A42C00D33500F05818 /* Frameworks */,
+				9E6BD7A62C00D33500F05818 /* Resources */,
+				9E6BD7A92C00D33500F05818 /* Bundle React Native code and images */,
+				9E6BD7AA2C00D33500F05818 /* [CP] Embed Pods Frameworks */,
+				9E6BD7AB2C00D33500F05818 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Todov3Staging;
+			productName = Todov3;
+			productReference = 9E6BD7AF2C00D33500F05818 /* Todov3Staging.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E6BD7B12C00D33800F05818 /* Todov3Production */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E6BD7BE2C00D33800F05818 /* Build configuration list for PBXNativeTarget "Todov3Production" */;
+			buildPhases = (
+				9E6BD7B22C00D33800F05818 /* [CP] Check Pods Manifest.lock */,
+				9E6BD7B32C00D33800F05818 /* Sources */,
+				9E6BD7B62C00D33800F05818 /* Frameworks */,
+				9E6BD7B82C00D33800F05818 /* Resources */,
+				9E6BD7BB2C00D33800F05818 /* Bundle React Native code and images */,
+				9E6BD7BC2C00D33800F05818 /* [CP] Embed Pods Frameworks */,
+				9E6BD7BD2C00D33800F05818 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Todov3Production;
+			productName = Todov3;
+			productReference = 9E6BD7C12C00D33800F05818 /* Todov3Production.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -225,6 +313,8 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* Todov3 */,
 				00E356ED1AD99517003FC87E /* Todov3Tests */,
+				9E6BD79F2C00D33500F05818 /* Todov3Staging */,
+				9E6BD7B12C00D33800F05818 /* Todov3Production */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +333,26 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6BD7A62C00D33500F05818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6BD7A72C00D33500F05818 /* LaunchScreen.storyboard in Resources */,
+				9E6BD7A82C00D33500F05818 /* Images.xcassets in Resources */,
+				9E6BD7C52C00D3F700F05818 /* Todov3Staging-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6BD7B82C00D33800F05818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6BD7B92C00D33800F05818 /* LaunchScreen.storyboard in Resources */,
+				9E6BD7C42C00D3F400F05818 /* Todov3Production-Info.plist in Resources */,
+				9E6BD7BA2C00D33800F05818 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +390,150 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Todov3/Pods-Todov3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E6BD7A02C00D33500F05818 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Todov3-Todov3Staging-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E6BD7A92C00D33500F05818 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../../../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../../../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		9E6BD7AA2C00D33500F05818 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Todov3-Todov3Staging/Pods-Todov3-Todov3Staging-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Todov3-Todov3Staging/Pods-Todov3-Todov3Staging-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Todov3-Todov3Staging/Pods-Todov3-Todov3Staging-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E6BD7AB2C00D33500F05818 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Todov3-Todov3Staging/Pods-Todov3-Todov3Staging-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Todov3-Todov3Staging/Pods-Todov3-Todov3Staging-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Todov3-Todov3Staging/Pods-Todov3-Todov3Staging-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E6BD7B22C00D33800F05818 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Todov3-Todov3Production-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E6BD7BB2C00D33800F05818 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../../../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../../../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		9E6BD7BC2C00D33800F05818 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Todov3-Todov3Production/Pods-Todov3-Todov3Production-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Todov3-Todov3Production/Pods-Todov3-Todov3Production-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Todov3-Todov3Production/Pods-Todov3-Todov3Production-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E6BD7BD2C00D33800F05818 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Todov3-Todov3Production/Pods-Todov3-Todov3Production-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Todov3-Todov3Production/Pods-Todov3-Todov3Production-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Todov3-Todov3Production/Pods-Todov3-Todov3Production-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -394,6 +648,24 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6BD7A12C00D33500F05818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6BD7A22C00D33500F05818 /* AppDelegate.mm in Sources */,
+				9E6BD7A32C00D33500F05818 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6BD7B32C00D33800F05818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6BD7B42C00D33800F05818 /* AppDelegate.mm in Sources */,
+				9E6BD7B52C00D33800F05818 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -658,6 +930,114 @@
 			};
 			name = Release;
 		};
+		9E6BD7AD2C00D33500F05818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C9FB26EB88B9AE024022A58 /* Pods-Todov3-Todov3Staging.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95237VRQF9;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Todov3Staging-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.todov2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		9E6BD7AE2C00D33500F05818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF2ED2999A0FF6A71F52604 /* Pods-Todov3-Todov3Staging.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95237VRQF9;
+				INFOPLIST_FILE = "Todov3Staging-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.todov2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		9E6BD7BF2C00D33800F05818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE368FD2E5FDA459BFB7F0B9 /* Pods-Todov3-Todov3Production.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95237VRQF9;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Todov3Production-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.todov2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		9E6BD7C02C00D33800F05818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AA246FAE71913F444E46300 /* Pods-Todov3-Todov3Production.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95237VRQF9;
+				INFOPLIST_FILE = "Todov3Production-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.todov2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -684,6 +1064,24 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E6BD7AC2C00D33500F05818 /* Build configuration list for PBXNativeTarget "Todov3Staging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E6BD7AD2C00D33500F05818 /* Debug */,
+				9E6BD7AE2C00D33500F05818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E6BD7BE2C00D33800F05818 /* Build configuration list for PBXNativeTarget "Todov3Production" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E6BD7BF2C00D33800F05818 /* Debug */,
+				9E6BD7C02C00D33800F05818 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
