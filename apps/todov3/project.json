@@ -5,30 +5,43 @@
   "projectType": "application",
   "tags": [],
   "targets": {
-    "bundle-ios": {
-      "executor": "@nx/react-native:bundle",
+    "run-android": {
+      "executor": "@nx/react-native:run-android",
       "options": {
-        "entryFile": "src/main.tsx",
-        "platform": "ios",
-        "bundleOutput": "dist/apps/mobile/ios/main.jsbundle",
-        "sourcemapOutput": "../../dist/apps/mobile/ios/main.map"
-      }
-    },
-    "bundle-android": {
-      "executor": "@nx/react-native:bundle",
-      "options": {
-        "entryFile": "src/main.tsx",
-        "platform": "android",
-        "bundleOutput": "dist/apps/mobile/android/main.jsbundle",
-        "sourcemapOutput": "../../dist/apps/mobile/android/main.map"
+        "resetCache": true
+      },
+      "defaultConfiguration": "development",
+      "configurations": {
+        "development": {
+          "interactive": true,
+          "activeArchOnly": true
+        },
+        "staging": {
+          "interactive": true,
+          "activeArchOnly": true
+        },
+        "production": {
+          "interactive": true,
+          "activeArchOnly": true
+        }
       }
     },
     "run-ios": {
       "executor": "@nx/react-native:run-ios",
       "options": {
-        "mode": "Release",
-        "interactive": true,
         "resetCache": true
+      },
+      "defaultConfiguration": "development",
+      "configurations": {
+        "development": {
+          "interactive": true
+        },
+        "staging": {
+          "interactive": true
+        },
+        "production": {
+          "interactive": true
+        }
       }
     }
   }
