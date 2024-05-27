@@ -5,32 +5,11 @@
   "projectType": "application",
   "tags": [],
   "targets": {
-    "run-android": {
-      "executor": "@nx/react-native:run-android",
-      "options": {
-        "resetCache": true,
-        "interactive": true
-      }  
-    },
     "run-ios": {
       "executor": "@nx/react-native:run-ios",
       "options": {
         "resetCache": true,
         "interactive": true
-      }
-    },
-    "run-android:staging": {
-      "executor": "nx:run-commands",
-      "outputs": [],
-      "options": {
-        "command": "ENVFILE=.env.staging nx run todov3:run-android"
-      }
-    },
-    "run-android:production": {
-      "executor": "nx:run-commands",
-      "outputs": [],
-      "options": {
-        "command": "ENVFILE=.env.production nx run todov3:run-android"
       }
     },
     "build-ios": {
@@ -40,6 +19,13 @@
         "interactive": true,
         "extraParams": ["archive"]
       }
+    },
+    "run-android": {
+      "executor": "@nx/react-native:run-android",
+      "options": {
+        "resetCache": true,
+        "interactive": true
+      }  
     },
     "build-android": {
       "executor": "@nx/react-native:build-android",
@@ -57,36 +43,6 @@
         },
         "apk": {
           "tasks": ["assembleRelease"]
-        }
-      }
-    },
-    "build-android:staging": {
-      "executor": "nx:run-commands",
-      "outputs": [],
-      "options": {
-        "command": "ENVFILE=.env.staging nx run todov3:build-android"
-      },
-      "configurations": {
-        "aab": {
-          "args": ["--configuration=aab"]
-        },
-        "apk": {
-          "args": ["--configuration=apk"]
-        }
-      }
-    },
-    "build-android:production": {
-      "executor": "nx:run-commands",
-      "outputs": [],
-      "options": {
-        "command": "ENVFILE=.env.production nx run todov3:build-android"
-      },
-      "configurations": {
-        "aab": {
-          "args": ["--configuration=aab"]
-        },
-        "apk": {
-          "args": ["--configuration=apk"]
         }
       }
     }
