@@ -17,6 +17,7 @@
     "todov1:clean:pods": "cd apps/todov1 && react-native clean-project-auto",
     "todov2:clean:pods": "cd apps/todov2 && react-native clean-project-auto",
     "todov3:clean:pods": "cd apps/todov3 && react-native clean-project-auto",
+    "todov3:android:clean": "cd apps/todov3/android && ./gradlew clean",
     "clean": "rm -rf node_modules **/node_modules **/**/node_modules **/**/**/node_modules && rm -rf $TMPDIR/react-* && watchman watch-del-all && yarn cache clean"
   },
   "private": true,
