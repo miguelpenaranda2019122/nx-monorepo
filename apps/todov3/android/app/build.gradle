@@ -4,8 +4,9 @@ apply plugin: "org.jetbrains.kotlin.android"
 apply plugin: "com.facebook.react"
 
 project.ext.envConfigFiles = [
-        debug: ".env",
-        release: ".env",
+      developmentdebug: ".env",
+      stagingdebug: ".env.staging",
+      productiondebug: ".env.production",
 ]
 /**
  * This is the configuration block to customize your React Native Android app.
@@ -79,6 +80,28 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
+    flavorDimensions "default"
+    productFlavors {
+        production {
+            minSdkVersion rootProject.ext.minSdkVersion
+            applicationId "com.todov3"
+            targetSdkVersion rootProject.ext.targetSdkVersion
+            resValue "string", "build_config_package", "com.todov3"
+        }
+        staging {
+            minSdkVersion rootProject.ext.minSdkVersion
+            applicationId "com.todov3.staging"
+            targetSdkVersion rootProject.ext.targetSdkVersion
+            resValue "string", "build_config_package", "com.todov3"
+        }
+        development {
+            minSdkVersion rootProject.ext.minSdkVersion
+            applicationId "com.todov3.development"
+            targetSdkVersion rootProject.ext.targetSdkVersion
+            resValue "string", "build_config_package", "com.todov3"
+        }
+    }
+
     namespace "com.todov3"
     defaultConfig {
         applicationId "com.todov3"
@@ -99,6 +122,7 @@ android {
     buildTypes {
         debug {
             signingConfig signingConfigs.debug
+            matchingFallbacks = ['debug', 'release']
         }
         release {
             // Caution! In production, you need to generate your own keystore file.

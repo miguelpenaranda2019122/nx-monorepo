@@ -25,7 +25,21 @@
       "options": {
         "resetCache": true,
         "interactive": true
-      }  
+      },
+      "configurations": {
+        "development": {
+          "mode": "developmentdebug",
+          "appId": "com.todov3.development"
+        },
+        "staging": {
+          "mode": "stagingdebug",
+          "appId": "com.todov3.staging"
+        },
+        "production": {
+          "mode": "productiondebug",
+          "appId": "com.todov3"
+        }
+      }
     },
     "build-android": {
       "executor": "@nx/react-native:build-android",
